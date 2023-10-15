@@ -1,6 +1,6 @@
 const username = process.env.WEB_USERNAME || "admin";
 const password = process.env.WEB_PASSWORD || "password";
-const projectPageURL = `https://www.google.com`;// 替换为你的项目域名
+const projectPageURL = `https://us2.zeabur.app/`;// 替换为你的项目域名
 const port = process.env.PORT || 3000;
 const express = require("express");
 const app = express();
